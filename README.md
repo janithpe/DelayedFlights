@@ -4,6 +4,7 @@
  ## Table of Contents
  * [Introduction](#introduction)
  * [Techologies](#technologies)
+ * [Methods Used](#methods-used)
  * [Project Contents](#project-contents)
 
  ## Introduction
@@ -20,6 +21,19 @@
  * Sklearn 1.1.1
  * Xgboost 1.6.0
  * Imblearn 0.9.1
+
+ ## Methods Used
+ Following methods/ models have been used in this project.
+ * Label encoder and Label binarizer
+ * Random Under/Over Sampling
+ * Logistic Regression Classifier
+ * Stochastic Gradient Descent (SGD) Classifier
+ * Decision Tree Classifier
+ * Random Forest Classifier
+ * Support Vector Machine Classifier (SVC)
+ * Gradient Boosting Classifier
+ * XG Boost Classifier
+ * Grid search Cross validation
 
  ## Project Contents
  1. Data files in folder
