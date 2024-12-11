@@ -20,13 +20,13 @@
 
  ## Technologies
  This project was developed using Python 3.8.5 in a Jupyter Notebook environment. The following libraries and modules were utilized:
- * Pandas 1.4.1 - For data manipulation and analysis
- * Numpy 1.22.1 - For numerical computations
- * Seaborn 0.11.2 - For data visualization
- * Matplotlib 3.5.1 - For creating static, animated, and interactive visualizations
- * Sklearn 1.1.1 - For machine learning algorithms and tools
- * Xgboost 1.6.0 - For gradient boosting algorithms
- * Imblearn 0.9.1 - For handling imbalanced datasets
+ * **Pandas 1.4.1** - For data manipulation and analysis
+ * **Numpy 1.22.1** - For numerical computations
+ * **Seaborn 0.11.2** - For data visualization
+ * **Matplotlib 3.5.1** - For creating static, animated, and interactive visualizations
+ * **Sklearn 1.1.1** - For machine learning algorithms and tools
+ * **Xgboost 1.6.0** - For gradient boosting algorithms
+ * **Imblearn 0.9.1** - For handling imbalanced datasets
 
  ## Methods Used
  The following methods and models were employed in this project:
@@ -42,9 +42,9 @@
  * Grid search Cross validation
 
  ## Project Contents
- 1. Data Files Folder - Contains all the relevant datasets used in this project.
- 2. Python Notebook - The Jupyter Notebook with all the code and analysis.
- 3. Written Report - A concise paper summarizing the project's findings and methodologies.
- 4. Presentation - A slide deck presenting the key points and results of the project.
+ 1. **Data Files Folder** - Contains all the relevant datasets used in this project.
+ 2. **Python Notebook** - The Jupyter Notebook with all the code and analysis.
+ 3. **Written Report** - A concise paper summarizing the project's findings and methodologies.
+ 4. **Presentation** - A slide deck presenting the key points and results of the project.
 
  #### For additional details, conclusions, and recommendations of the project, please refer to the comprehensive PDF version of the [paper](https://github.com/janithpe/DelayedFlights/blob/main/Report_Analysis%20of%20Delayed%20Flights.pdf) and the [accompanying presentation](https://github.com/janithpe/DelayedFlights/blob/main/Presentation_Analysis%20of%20Delayed%20Flights.pdf).
