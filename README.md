@@ -1,3 +1,12 @@
+> # 🚧 **[UPDATE IN PROGRESS]**  
+> This project is currently being enhanced into an end-to-end, production-ready ML application using Flask (API), Streamlit (Dashboard), Airflow (Workflow Automation), and Docker (Deployment).  
+>  
+> Stay tuned for real-time delay prediction with live web interfaces and orchestrated ML pipelines!  
+>  
+> ✅ Original academic version: ✅ Completed  
+> 🔄 Production-grade version: 🛠️ In progress (ETA: July 2025)  
+
+
 # Delayed Flights
  Study of Possible Factors Caused Flight Delays at Destination Airports in USA
 
