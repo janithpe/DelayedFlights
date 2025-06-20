@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  flask-api:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    working_dir: /app/app/api
+    command: flask run --host=0.0.0.0
+
+  streamlit-app:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    working_dir: /app/dashboard
+    command: streamlit run streamlit_app.py
