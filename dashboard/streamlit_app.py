@@ -1,8 +1,9 @@
+import os
 import json
 import requests
 import streamlit as st
 
-API_URL = "http://127.0.0.1:5000/predict"
+API_URL = os.getenv("API_URL", "http://127.0.0.1:5000/predict")
 
 st.markdown("<h1 style='text-align: center; color: black;'>✈️ Flight Delay Predictor</h1>", unsafe_allow_html=True)
 
