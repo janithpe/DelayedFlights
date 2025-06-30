@@ -1,19 +1,27 @@
-version: "3.9"
 services:
-  flask-api:
-    build: .
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: delayed-flights-api
     ports:
       - "5000:5000"
-    volumes:
-      - .:/app
-    working_dir: /app/app/api
-    command: flask run --host=0.0.0.0
+    networks:
+      - app-net
 
-  streamlit-app:
-    build: .
+  streamlit:
+    build:
+      context: .
+      dockerfile: StreamlitDockerfile
+    container_name: delayed-flights-ui
     ports:
       - "8501:8501"
-    volumes:
-      - .:/app
-    working_dir: /app/dashboard
-    command: streamlit run streamlit_app.py
+    depends_on:
+      - api
+    networks:
+      - app-net
+    environment:
+      - API_URL=http://api:5000/predict
+
+networks:
+  app-net:
