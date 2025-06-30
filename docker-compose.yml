@@ -22,6 +22,11 @@ services:
       - app-net
     environment:
       - API_URL=http://api:5000/predict
+    healthcheck:
+      test: ["CMD", "python", "-c", "import socket; s=socket.socket(); s.settimeout(2); s.connect(('localhost',8501))"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
 
 networks:
   app-net:
