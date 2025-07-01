@@ -11,10 +11,13 @@ from imblearn.over_sampling import RandomOverSampler
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 from app.preprocessing.data_pipeline import preprocess_flight_data
 
+# Use environment variable if available; fallback to local relative path
+data_dir = os.environ.get("DATA_DIR", "data/raw")
+
 # Chooses the most recent of two available datasets for model training.
 # This helps the model generalize better by focusing on up-to-date patterns, reducing the risk of
 # overfitting to outdated data.
-data_source = "data/raw/jan_2020_ontime.csv"
+data_source = os.path.join(data_dir, "jan_2020_ontime.csv")
 
 
 # --------------------------------
