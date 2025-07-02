@@ -1,0 +1,2 @@
+# Deprioritize notebooks in language stats
+*.ipynb linguist-detectable=false
