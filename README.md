@@ -5,6 +5,25 @@
 > *Completed:* Full project including modeling, orchestration, and containerized deployment  
 
 
+## Table of Contents
+- [Project Purpose & Goals](#project-purpose--goals)
+- [Dataset Source & Description](#dataset-source--description)
+- [Tools & Technologies](#tools--technologies)
+- [ML Modeling Workflow](#ml-modeling-workflow)
+- [Project Structure](#project-structure)
+- [End-to-End Pipeline Flow](#end-to-end-pipeline-flow)
+- [How to Run the Project](#how-to-run-the-project)  
+   1. [EDA & Local Modeling (Jupyter Notebook)](#1-eda--local-modeling-jupyter-notebook)
+   2. [Streamlit Dashboard (via Docker)](#2-streamlit-dashboard-via-docker)  
+   3. [Full Pipeline with Apache Airflow (via Docker)](#3-full-pipeline-with-apache-airflow-via-docker)  
+- [Summary of Model Evaluation](#summary-of-model-evaluation)
+- [Visual Insights](#visual-insights)
+- [Academic Deliverables](#academic-deliverables)
+- [Lessons Learned](#lessons-learned)
+- [Future Enhancements](#future-enhancements)
+- [License](#license)  
+
+
 ## Project Purpose & Goals
 Flight delays are a widespread issue affecting travelers and airlines. This project builds an interpretable and scalable ML model to **predict whether a flight will be delayed upon arrival**, using publicly available U.S. domestic flight data.
 
